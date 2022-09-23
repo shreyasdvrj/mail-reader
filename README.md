@@ -8,9 +8,9 @@ Make sure to follow these steps
 - Enable IMAP in your gmail settings
 ![App Screenshot](imap.JPG)
 
-- Generate password in your google settings
+- Generate password in App passwords under google settings
 ![App Screenshot](password.JPG)
-Choose device as 'other' and give it any name\
+Choose app as 'other' and give it any name\
 This generates a 16 character password 
 
 
