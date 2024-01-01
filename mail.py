@@ -19,7 +19,7 @@ def getMail():
 
     key = 'FROM'
     value =  my_credentials["from"]
-    # _, data = my_mail.search(None, key, value, '(UNSEEN)')  #Search for unread emails 
+    # _, data = my_mail.search(None, key, value, '(UNSEEN)')  #Filter out for unread emails 
     _, data = my_mail.search(None, key, value)
 
     mail_id_list = data[0].split() 
